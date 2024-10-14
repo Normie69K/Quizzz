@@ -1,5 +1,3 @@
-Here's a sample `README.md` for your Java Swing-based Quiz application:
-
 ```markdown
 # Java Quiz Application
 
@@ -17,35 +15,40 @@ This is a simple quiz application built using **Java Swing**. The application pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quiz-app.git
-   cd quiz-app
+   git clone https://github.com/Normie69K/Quizzz.git
+   cd Quizzz
    ```
 
 2. Compile the Java source files:
    ```bash
-   javac Quiz.java Rules.java
+   javac Quiz.java Rules.java login.java
    ```
 
 3. Run the application:
    ```bash
-   java Quiz
+   java login
    ```
 
 ## Screens
 
-### 1. Quiz Screen:
+### 1. Login Screen:
+- Users enter their name and password.
+- After successful login, the quiz rules are displayed.
+
+### 2. Quiz Screen:
 - Displays the current question number.
 - Shows a multiple-choice question with four options.
 - **Next** button to move to the next question.
 - **Submit** button to finish the quiz and display the final score.
 
-### 2. Rules Screen:
+### 3. Rules Screen:
 - Displays a set of fun rules before starting the quiz.
 - User can go back or start the quiz from here.
 
 ## Code Structure
 
 ### Classes:
+- **Login**:Handles the login process and redirects to the quiz or rules screen.
 - **Quiz**: The main class responsible for displaying the questions, handling button actions, and tracking the user's progress and score.
 - **Rules**: A separate window that explains the rules of the quiz in a humorous tone before the quiz begins.
 
