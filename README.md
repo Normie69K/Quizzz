@@ -67,9 +67,6 @@ This is a simple quiz application built using **Java Swing**. The application pr
 - **Timer**: Add a timer for each question.
 - **Dynamic Question Loading**: Load questions from an external file or database.
 - **Scoreboard**: Track and display the high scores of users.
-  
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
 - **Karan Singh** - Initial work on the project.
